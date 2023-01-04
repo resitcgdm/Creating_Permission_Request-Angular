@@ -48,7 +48,7 @@ logindata(date:FormGroup)
     });
     if(Limit) 
     {
-       this.toast.error('izin talebi geçersiz','GEÇERSİZ',{
+       this.toast.error('Permission request invalid','Invalid',{
         timeOut:5000,
         progressBar:true
 
@@ -57,7 +57,7 @@ logindata(date:FormGroup)
     }
     else 
     {
-      this.toast.success('izin talebiniz iletilmiştir','BAŞARILI',{
+      this.toast.success('Your permission request has been submitted','Success',{
         timeOut:5000,
         progressBar:true
       });
