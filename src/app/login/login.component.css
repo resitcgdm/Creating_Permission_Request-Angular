@@ -1,0 +1,17 @@
+@media(min-width:400px) {
+input{
+    min-width: 250px;
+}
+
+.form-box{
+    
+    background-color:lightgray;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    border-radius: 8px;
+
+    
+}
+}
